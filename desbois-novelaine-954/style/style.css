@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    text-decoration: none;
+}
+.fermer {
+    display: none;
+}
+.formulaire {
+    background-color:#e3e6e8;
+    margin: 387px 0 68px 250px;
+    opacity: 0.89;
+    width: 70%;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+}
+.formulaire div {
+    background-color: #4b954b;
+    width: 20%;
+    height: 17px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 15px;
+}
+.formulaire h3 {
+    color: #ffffff;
+}
+
+.formulaire select, input {
+    margin: 7px;
+    border-radius: 3px;
+}
+.formulaire section {
+    opacity: 0.50;
+}
+.voiture {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+.voiture button {
+    background-color: #56b056;
+    color: #ffffff;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.description p {
+    padding: 20px 0 0 0;
+    font-weight: bold;
+}
+.slider {
+    width: 1%;
+    height: 1%;
+    margin: 15px;
+    margin-right: 50px;
+    padding-top: 60px; 
+}
+.trait {
+    background-color: gray;
+    width: 70%;
+    height: 1px;
+    opacity: 0.38;
+    margin: auto auto;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    clear: both;
+    width: 100%;
+    height: 650px;
+}
+header img {
+    float: right;
+    width: 22px;
+    padding: 18px;
+}
+header nav {
+    display: flex;
+    float: right;
+    display: none;
+    margin: 5px;
+}
+header nav a {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+}
+header h1 {
+    padding-top: 63px;
+    color: #ffffff;
+    text-align: center;
+}
+header h3 {
+    font-size: 13px;
+    text-align: center;
+}
+header p {
+    padding-top: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+#resultat {
+    display: flex;
+    justify-content: space-around;
+    margin: 26px;
+}
+footer img {
+    width: 10%;
+    margin:  0 25px;
+}
+footer {
+    display:flex;
+    justify-content: center;
+    margin: 25px;
+}
+footer p {
+    margin: 15px;
+}
+
+@media screen and (max-width: 960px){
+    .formulaire {
+        margin: 40% auto 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .formulaire div {
+        width: 70%;
+    }
+    header .formulaire {
+        height: 15%;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .voiture {
+        flex-direction: column;
+    }
+    .voiture img {
+        width: 70%;
+    }
+    .slider {
+        display: none;
+    }
+    footer img {
+        display: none;
+        margin-top: 25px;
+        width: 10%;
+        height: 10%;
+    }
+    header .formulaire {
+        height: 25%;
+    }
+}
+@media screen and (max-width: 550px){
+    
+    footer p {
+        font-size: small;
+    }
+
+    .formulaire {
+        margin: 50% auto 0 auto;
+    }
+}
